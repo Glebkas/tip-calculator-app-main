@@ -1,0 +1,5 @@
+.form__tip-btns{
+display: grid;
+grid-template-columns: repeat(3, minmax(117px,146px));
+gap: 14px 16px ;
+}

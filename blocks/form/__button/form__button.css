@@ -1,0 +1,23 @@
+.form__button {
+  min-height: 48px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  background-color: #00474b;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  font-family: spacemono;
+}
+
+
+.form__button:hover{
+  background-color: #26C2AE;
+}
+
+.form__button:focus{
+  background-color: #26C2AE;
+}

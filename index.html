@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./page/index.css" />
+    <title>Tip calculator app</title>
+  </head>
+  <body class="root">
+    <header>
+      <div class="header__logo"></div>
+    </header>
+    <main class="main">
+      <section class="tip-calculator">
+        <form class="form" name="bill-total">
+          <div class="form__bill">
+            <label class="form__label" for="bill-amount">Bill</label>
+            <input
+              class="form__input form__input_type_bill"
+              type="number"
+              id="bill-amount"
+              name="bill-amount"
+              placeholder="0"
+            />
+            <div class="form__input-icon form__input-icon_type_curncy"></div>
+          </div>
+          <div class="form__tip-percent">
+            <p class="form__tip-percent-title">Select Tip %</p>
+            <div class="form__tip-btns">
+              <button class="form__button">5%</button>
+              <button class="form__button">10%</button>
+              <button class="form__button">15%</button>
+              <button class="form__button">25%</button>
+              <button class="form__button">50%</button>
+              <input
+                type="number"
+                id="custom-percent"
+                name="custom-percent"
+                class="form__input"
+                placeholder="Custom"
+              />
+            </div>
+          </div>
+          <div class="form__number-of-ppl">
+            <div class="form__labal-container">
+            <label class="form__label" for="number-of-people"
+              >Number of People</label
+            >
+            <p class="form__label-error">Can't be zero</p>
+          </div>
+            <input
+              type="number"
+              id="number-of-people"
+              name="number-of-people"
+              class="form__input"
+              placeholder="0"
+            />
+            <div class="form__input-icon form__input-icon_type_people"></div>
+          </div>
+        </form>
+      </section>
+      <section class="bill-result">
+        <div class="tip-per-prs">
+          <p class="tip-per-prs__title">
+            Tip Amount <span class="tip-per-prs__title_small">/ person</span>
+          </p>
+          <p class="tip-per-prs__amount">$0.0</p>
+        </div>
+
+        <div class="total-per-prs">
+          <p class="total-per-prs__title">
+            Total /<span class="total-per-prs__title_small">person</span>
+          </p>
+          <p class="total-per-prs__amount">$0.0</p>
+        </div>
+
+        <button class="bill-result__reset">Reset</button>
+      </section>
+    </main>
+  </body>
+</html>

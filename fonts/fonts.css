@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: "spacemono";
+    src: url(../fonts/SpaceMono-Bold.woff) format("woff"),
+      url(../fonts/SpaceMono-Bold.ttf) format("ttf");
+    font-weight: 700;
+  }
+  

@@ -1,0 +1,11 @@
+.form__input-icon{
+    position: absolute;
+    background-image: url(../../../images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 16px;
+    height: 16px;
+    left: 20px;
+    bottom: 20px;
+}
+

@@ -1,0 +1,6 @@
+.form__number-of-ppl{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+}
