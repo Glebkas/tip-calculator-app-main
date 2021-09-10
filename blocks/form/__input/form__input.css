@@ -10,5 +10,16 @@
   color: #00474b;
   padding-right: 17px;
   font-family: spacemono;
+  outline: none;
+  outline-style: none;
+  box-shadow: none;
+}
 
+.form__input:focus {
+  border-color: #26c2ae;
+
+}
+
+.form__input:invalid {
+    border-color:red;
 }

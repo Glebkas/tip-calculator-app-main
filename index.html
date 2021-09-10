@@ -43,7 +43,7 @@
                 type="number"
                 id="custom-percent"
                 name="custom-percent"
-                class="form__input"
+                class="form__input form__input_type_custom"
                 placeholder="Custom"
               />
             </div>
@@ -67,21 +67,22 @@
         </form>
       </section>
       <section class="bill-result">
+        <div class="bill-result__sum">
         <div class="tip-per-prs">
           <p class="tip-per-prs__title">
-            Tip Amount <span class="tip-per-prs__title_small">/ person</span>
+            Tip Amount <span class="tip-per-prs__title-small">/ person</span>
           </p>
           <p class="tip-per-prs__amount">$0.0</p>
         </div>
 
         <div class="total-per-prs">
           <p class="total-per-prs__title">
-            Total /<span class="total-per-prs__title_small">person</span>
+            Total <span class="total-per-prs__title-small">/ person</span>
           </p>
           <p class="total-per-prs__amount">$0.0</p>
         </div>
-
-        <button class="bill-result__reset">Reset</button>
+      </div>
+        <button class="bill-result__reset">RESET</button>
       </section>
     </main>
   </body>

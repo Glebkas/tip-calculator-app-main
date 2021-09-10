@@ -8,9 +8,9 @@
 @import url(../blocks/form/__bill/form__bill.css);
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_type/form__input_type_custom.css);
 @import url(../blocks/form/__input/_type/form__input_type.css);
 @import url(../blocks/form/__input-icon/form__input-icon.css);
-@import url(../blocks/form/__input-icon/_type/form__input-icon_type_curency.css);
 @import url(../blocks/form/__input-icon/_type/form__input-icon_type_people.css);
 @import url(../blocks/form/__tip-percent/form__tip-percent.css);
 @import url(../blocks/form/__tip-percent-title/form__tip-percent-title.css);
@@ -19,3 +19,14 @@
 @import url(../blocks/form/__number-of-ppl/form__number-of-ppl.css);
 @import url(../blocks/form/__labal-container/form____labal-container.css);
 @import url(../blocks/form/__label-error/form__label-error.css);
+@import url(../blocks/bill-result/bill-result.css);
+@import url(../blocks/bill-result/__sum/bill-result__sum.css);
+@import url(../blocks/tip-per-prs/tip-per-prs.css);
+@import url(../blocks/tip-per-prs/__title/tip-per-prs__title.css);
+@import url(../blocks/tip-per-prs/__title_small/tip-per-prs__title-small.css);
+@import url(../blocks/tip-per-prs/__amount/tip-per-prs__amount.css);
+@import url(../blocks/total-per-prs/total-per-prs.css);
+@import url(../blocks/total-per-prs/__title/total-per-prs__title.css);
+@import url(../blocks/total-per-prs/__title-small/total-per-prs__title-small.css);
+@import url(../blocks/total-per-prs/__amount/total-per-prs__amount.css);
+@import url(../blocks/bill-result/__reset/bill-result__reset.css);

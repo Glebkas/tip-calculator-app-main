@@ -1,0 +1,5 @@
+.total-per-prs{
+    display: flex;
+    max-width: 333px;
+    justify-content: space-between;
+}

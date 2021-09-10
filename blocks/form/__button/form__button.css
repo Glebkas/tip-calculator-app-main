@@ -11,11 +11,15 @@
   box-shadow: none;
   border: none;
   font-family: spacemono;
+  transition:background-color 0.7s;
+
 }
 
 
 .form__button:hover{
   background-color: #26C2AE;
+  transition:background-color 0.7s;
+
 }
 
 .form__button:focus{

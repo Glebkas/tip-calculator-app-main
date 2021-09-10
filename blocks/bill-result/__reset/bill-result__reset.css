@@ -1,0 +1,19 @@
+.bill-result__reset {
+  background-color: #26c2ae;
+  color: #00474B;
+  border-radius: 5px;
+  border: 0;
+  padding:5.5px 0 5.5px 0;
+  border-color: transparent;
+  font-size: 1.25rem;
+  line-height: 1.875;
+  font-weight: 700;
+  font-family: spacemono;
+  cursor: pointer;
+  transition: background-color 0.7s;
+}
+
+.bill-result__reset:hover{
+  background-color: #9FE8DF;
+  transition:background-color 0.7s;
+}
