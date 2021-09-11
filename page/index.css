@@ -9,7 +9,6 @@
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_type/form__input_type_custom.css);
-@import url(../blocks/form/__input/_type/form__input_type.css);
 @import url(../blocks/form/__input-icon/form__input-icon.css);
 @import url(../blocks/form/__input-icon/_type/form__input-icon_type_people.css);
 @import url(../blocks/form/__tip-percent/form__tip-percent.css);

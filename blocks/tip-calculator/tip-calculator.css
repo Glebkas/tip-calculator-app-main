@@ -1,4 +1,12 @@
-.tip-calculator{
-    max-width: 379px;
-    margin: 45px 48px 48px 48px ;
+.tip-calculator {
+  max-width: 395px;
+  margin: 45px 48px 48px 32px;
+}
+
+@media screen and (max-width: 900px) {
+  .tip-calculator {
+    margin: 32px auto;
+    max-width: 459px;
+
+  }
 }

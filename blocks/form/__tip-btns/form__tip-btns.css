@@ -3,3 +3,12 @@ display: grid;
 grid-template-columns: repeat(3, minmax(117px,146px));
 gap: 14px 16px ;
 }
+
+
+@media screen and (max-width: 493px) {
+    .form__tip-btns{
+        grid-template-columns: repeat(2, minmax(117px,2fr));
+
+    }
+    
+}

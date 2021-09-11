@@ -1,7 +1,13 @@
-.total-per-prs__amount{
-    color: #26c2ae;
-    font-size: 3rem;
-    text-align: right;
-    letter-spacing: -1px;
-    margin: 0;
+.total-per-prs__amount {
+  color: #26c2ae;
+  font-size: 3rem;
+  text-align: right;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+@media screen and (max-width: 493px) {
+  .total-per-prs__amount {
+    font-size: 2rem;
+  }
 }
