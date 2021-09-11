@@ -19,7 +19,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 - Error message will display when the number of people set to 0
-- Custom prcentage of tip can be assignd
+- Custom percentage of a tip can be assigned
 - Calculate tip per person
 - Calculate total (tip included) per person
 
