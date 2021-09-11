@@ -45,6 +45,7 @@ function reset() {
   tipPrPrsRslt.textContent = "$" + "0.0";
   amountInput.value = null;
   nmbrOfPplInput.value = null;
+  removeError();
 }
 
 function btnHandler(e) {
